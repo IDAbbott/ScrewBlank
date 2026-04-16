@@ -88,7 +88,7 @@
         },
         {
           "name": "height",
-          "ioValue": 7
+          "ioValue": 15
         }
       ]
     },
@@ -101,7 +101,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-7",
+            "geometry": "move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0-0-7",
             "dimension": "3D",
             "tags": [],
             "plane": {
