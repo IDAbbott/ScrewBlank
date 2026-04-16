@@ -128,7 +128,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,9],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,17],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -187,11 +187,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": 9
+          "ioValue": 17
         }
       ]
     },
@@ -223,7 +224,7 @@
               "origin": [
                 0,
                 0,
-                9
+                17
               ],
               "xDir": [
                 1,
