@@ -19,36 +19,6 @@
       ]
     },
     {
-      "atomType": "Export",
-      "x": 0.8232720909886265,
-      "y": 0.7358078602620087,
-      "uniqueID": "id-93",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "ScrewBlank",
-          "currentEquation": "ScrewBlank"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "ScrewBlank"
-    },
-    {
       "atomType": "Circle",
       "x": 0.09798775153105863,
       "y": 0.29912663755458513,
@@ -319,11 +289,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-247",
       "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-247",
-      "ap2ID": "id-93"
     },
     {
       "ap2Name": "geometry",
