@@ -4,6 +4,17 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "ScrewBlank",
+  "ioValues": [
+    {
+      "name": "Thread",
+      "ioValue": 3.2,
+      "currentEquation": "3.2"
+    },
+    {
+      "name": "Nut",
+      "ioValue": 6.8
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -20,8 +31,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.09798775153105863,
-      "y": 0.29912663755458513,
+      "x": 0.16167664670658682,
+      "y": 0.22682926829268293,
       "uniqueID": "id-244",
       "ioValues": [
         {
@@ -32,17 +43,18 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.09273840769903761,
-      "y": 0.6419213973799127,
+      "x": 0.2857142857142857,
+      "y": 0.6634146341463415,
       "uniqueID": "id-245",
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 6
+          "ioValue": 6,
+          "currentEquation": "6"
         },
         {
           "name": "diameter",
-          "ioValue": 7
+          "ioValue": 7.14
         }
       ]
     },
@@ -98,7 +110,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-3.5-6-{\"origin\":[0,0,17],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-3.57-6-{\"origin\":[0,0,17],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -127,8 +139,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.08836395450568679,
-      "y": 0.4759825327510917,
+      "x": 0.1702309666381523,
+      "y": 0.43902439024390244,
       "uniqueID": "id-248",
       "ioValues": [
         {
@@ -213,7 +225,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "polysides-3.5-6",
+            "geometry": "polysides-3.57-6",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -267,6 +279,38 @@
           "ioValue": 7
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-284",
+      "name": "Thread"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-287",
+      "name": "Nut"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.15483319076133448,
+      "y": 0.6146341463414634,
+      "uniqueID": "id-290",
+      "name": "x * y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 6.8
+        },
+        {
+          "name": "y",
+          "ioValue": 1.05
+        }
+      ],
+      "currentEquation": "x * y"
     }
   ],
   "allConnectors": [
@@ -309,6 +353,26 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-251",
       "ap2ID": "id-247"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-284",
+      "ap2ID": "id-244"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-287",
+      "ap2ID": "id-248"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-287",
+      "ap2ID": "id-290"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-290",
+      "ap2ID": "id-245"
     }
   ],
   "unitsKey": "MM",

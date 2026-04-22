@@ -4,6 +4,12 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Thread** (number)
+- **Nut** (number)
+
+
 
 
  
