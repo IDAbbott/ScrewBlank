@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Thread",
-      "ioValue": 3.2,
-      "currentEquation": "3.2"
+      "ioValue": 3.2
     },
     {
       "name": "Nut",
@@ -49,12 +48,11 @@
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 6,
-          "currentEquation": "6"
+          "ioValue": 6
         },
         {
           "name": "diameter",
-          "ioValue": 7.208
+          "ioValue": 8.84
         }
       ]
     },
@@ -70,20 +68,20 @@
         },
         {
           "name": "height",
-          "ioValue": 15
+          "ioValue": 40
         }
       ]
     },
     {
       "atomType": "Fusion",
-      "x": 0.6680923866552609,
-      "y": 0.3146341463414634,
+      "x": 0.6720867208672087,
+      "y": 0.3121951219512195,
       "uniqueID": "id-247",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0-0-7",
+            "geometry": "move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0-7",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -110,7 +108,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-3.604-6-{\"origin\":[0,0,17],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
+            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-4.42-6-{\"origin\":[0,0,35],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -155,8 +153,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3009623797025372,
-      "y": 0.4432314410480349,
+      "x": 0.3026196928635953,
+      "y": 0.44878048780487806,
       "uniqueID": "id-249",
       "ioValues": [
         {
@@ -173,7 +171,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 17
+          "ioValue": 35
         }
       ]
     },
@@ -205,7 +203,7 @@
               "origin": [
                 0,
                 0,
-                17
+                35
               ],
               "xDir": [
                 1,
@@ -225,7 +223,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "polysides-3.604-6",
+            "geometry": "polysides-4.42-6",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -307,10 +305,34 @@
         },
         {
           "name": "y",
-          "ioValue": 1.06
+          "ioValue": 1.3
         }
       ],
       "currentEquation": "x * y"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7868112014453478,
+      "y": 0.5560975609756097,
+      "uniqueID": "id-330",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": -21
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -330,9 +352,9 @@
       "ap2ID": "id-251"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-247",
-      "ap2ID": "id-2"
+      "ap2ID": "id-330"
     },
     {
       "ap2Name": "geometry",
@@ -373,6 +395,11 @@
       "ap2Name": "diameter",
       "ap1ID": "id-290",
       "ap2ID": "id-245"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-330",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
