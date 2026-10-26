@@ -18,7 +18,7 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
+      "x": 1,
       "y": 0.5,
       "uniqueID": "id-2",
       "ioValues": [
@@ -30,8 +30,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.16167664670658682,
-      "y": 0.22682926829268293,
+      "x": 0.2,
+      "y": 0.2,
       "uniqueID": "id-244",
       "ioValues": [
         {
@@ -42,8 +42,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.2857142857142857,
-      "y": 0.6634146341463415,
+      "x": 0.3,
+      "y": 0.7,
       "uniqueID": "id-245",
       "ioValues": [
         {
@@ -58,8 +58,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.331583552055993,
-      "y": 0.23362445414847163,
+      "x": 0.3,
+      "y": 0.2,
       "uniqueID": "id-246",
       "ioValues": [
         {
@@ -74,71 +74,25 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.6720867208672087,
-      "y": 0.3121951219512195,
+      "x": 0.7,
+      "y": 0.3,
       "uniqueID": "id-247",
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": "move-extrude-circle-1.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-0-7",
-            "dimension": "3D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 2",
-          "ioValue": {
-            "geometry": "loft-move-polysides-3.4-6-0-0-0-polysides-3.604-6-{\"origin\":[0,0,20],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}",
-            "dimension": "3D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "unionType": "Fusion"
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.1702309666381523,
-      "y": 0.43902439024390244,
+      "x": 0.2,
+      "y": 0.4,
       "uniqueID": "id-248",
       "ioValues": [
         {
@@ -153,8 +107,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3026196928635953,
-      "y": 0.44878048780487806,
+      "x": 0.3,
+      "y": 0.4,
       "uniqueID": "id-249",
       "ioValues": [
         {
@@ -177,11 +131,15 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.4846894138232721,
-      "y": 0.4759825327510917,
+      "x": 0.5,
+      "y": 0.5,
       "uniqueID": "id-250",
       "ioValues": [
         {
+          "name": "smooth",
+          "ioValue": false
+        },
+        {
           "name": "Shape 1",
           "ioValue": "__GEOMETRY_INPUT__"
         },
@@ -194,70 +152,28 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
+          "name": "smooth",
+          "ioValue": false
+        },
+        {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": "move-polysides-3.4-6-0-0-0",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                20
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 2",
-          "ioValue": {
-            "geometry": "polysides-3.604-6",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
       "closedSelection": 0
     },
     {
       "atomType": "Move",
-      "x": 0.5100612423447068,
-      "y": 0.22707423580786024,
+      "x": 0.5,
+      "y": 0.2,
       "uniqueID": "id-251",
       "ioValues": [
         {
@@ -280,22 +196,24 @@
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "x": 0,
+      "y": 0.1,
       "uniqueID": "id-284",
-      "name": "Thread"
+      "name": "Thread",
+      "options": []
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "x": 0,
+      "y": 0.2,
       "uniqueID": "id-287",
-      "name": "Nut"
+      "name": "Nut",
+      "options": []
     },
     {
       "atomType": "Equation",
-      "x": 0.15483319076133448,
-      "y": 0.6146341463414634,
+      "x": 0.2,
+      "y": 0.6,
       "uniqueID": "id-290",
       "name": "x * y",
       "ioValues": [

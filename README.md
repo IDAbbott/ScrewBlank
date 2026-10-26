@@ -2,7 +2,7 @@
 
 # ScrewBlank
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
